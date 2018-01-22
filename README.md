@@ -1,13 +1,13 @@
-###DQN_Word_Problem_Solver
+### DQN_Word_Problem_Solver
 
 ---
 
-####Requirements:
+#### Requirements:
 
 - Tensorflow 1.2.1
 - Python 2.7
 
-####Introduction
+#### Introduction
 
 The research paper [MathDQN: Solving Arithmetic Word Problems via Deep Reinforcement Learning]() has been accepted at the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18).
 
