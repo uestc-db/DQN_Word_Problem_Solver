@@ -11,11 +11,11 @@ import numpy as np
 
 class Config:
     def __init__(self):
-        self.parse_prefix_path = "/home/wanglei/ijcai/compare/stanford-corenlp-python/data/ai2data/"
+        self.parse_prefix_path = "./data/ai2data/"
         self.max_nodes_num = 6
         self.wp_total_num = 0
         self.parse_dict = self.parse_process_data(self.parse_prefix_path) 
-        self.gold_ans_file_name = "/home/wanglei/ijcai/compare/stanford-corenlp-python/data/ai2gold.data"
+        self.gold_ans_file_name = "./data/ai2gold.data"
         self.gold_trees = self.get_gold_ans(self.gold_ans_file_name)
         self.train_num = int(self.wp_total_num*0.8)
         #self.tain_num = 316
